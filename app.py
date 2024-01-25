@@ -6,10 +6,7 @@ app = Flask(__name__)
 
 # MySQL connection details
 db_config = {
-    'host': 'localhost',
-    'database': 'nakuldb1',
-    'user': 'root',
-    'password': 'nakul'
+    'host':'sql6.freesqldatabase.com', 'database':'sql6679613', 'user':'sql6679613', 'password':'M51cDCXEYd'
 }
 
 def execute_query(query, data=None, fetch_all=False):

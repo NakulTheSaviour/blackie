@@ -5,10 +5,10 @@ from mysql.connector import Error
 # Connect to MySQL
 try:
     connection = mysql.connector.connect(
-        host='localhost',
-        database='nakuldb1',
-        user='root',
-        password='nakul'
+        host='sql6.freesqldatabase.com',
+        database='sql6679613',
+        user='sql6679613',
+        password='M51cDCXEYd'
     )
 
     if connection.is_connected():
